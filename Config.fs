@@ -4,20 +4,20 @@ open System.IO
 
 // --- Site metadata (edit these for your site) ---
 // Only change the values in quotes - the rest is just labels.
-let siteTitle = "SkunkHTML"
-let siteDescription = "The simplest blog on GitHub Pages. Fork, enable Pages, write Markdown."
-let siteBaseUrl = "https://mg0x7be.github.io/skunk-html"  // No trailing slash. Include repo name if using project pages.
-let siteLanguage = "en"
-let siteAuthor = ""  // Optional, used in RSS feed and meta tags
+let siteTitle = "Chiruno9 的小站"
+let siteDescription = "记录我的编程学习日志 · 模组开发"
+let siteBaseUrl = "https://tensai-chiruno.github.io"  // No trailing slash. Include repo name if using project pages.
+let siteLanguage = "zh"
+let siteAuthor = "Chiruno9"  // Optional, used in RSS feed and meta tags
 let siteImage = "assets/avatar.jpg"  // Optional, preview image for social shares (og:image), relative to site root. "" disables
 
 // --- Interface text (translate these if your blog is not in English) ---
-let blogEntriesHeading = "blog entries"  // Section heading above the post list on the front page
-let publishedOnText = "Published on"  // Shown before the date at the end of each post
-let untitledPageTitle = "No Title"  // Fallback title for pages without a # heading
-let notFoundTitle = "Page not found"  // Browser tab title of the 404 page
-let notFoundMessage = "This page does not exist or has been moved."  // 404 page text
-let notFoundBackText = "Back to the front page"  // 404 page link text
+let blogEntriesHeading = "文章列表"  // Section heading above the post list on the front page
+let publishedOnText = "发布于"  // Shown before the date at the end of each post
+let untitledPageTitle = "无标题"  // Fallback title for pages without a # heading
+let notFoundTitle = "页面未找到"  // Browser tab title of the 404 page
+let notFoundMessage = "该页面不存在或已被移动。"  // 404 page text
+let notFoundBackText = "返回首页"  // 404 page link text
 
 // --- Folder layout (you normally don't need to touch these) ---
 let sourceDir = __SOURCE_DIRECTORY__
